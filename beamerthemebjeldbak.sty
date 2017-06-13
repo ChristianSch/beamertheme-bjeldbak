@@ -12,6 +12,10 @@
 \useinnertheme{default}
 \usefonttheme{serif}
 
+
+% improved, centered header with serif font and more spacing
+\setbeamertemplate{frametitle}{\vspace{3mm}\centering\insertframetitle\par}
+
 \setbeamertemplate{footline} % show slide number on all slides but the first
 {%
   \ifnum\c@framenumber=1
@@ -40,7 +44,7 @@
 \setbeamertemplate{navigation symbols}{} % hide bottom nav buttons
 \setbeamercovered{transparent} % don't hide strip-teased bullet points
 
-\definecolor{barcolor}{HTML}{77C4D3} % teal
+\definecolor{barcolor}{HTML}{333333} % teal
 \setbeamercolor{lower separation line head}{bg=barcolor} 
 \setbeamercolor{lower separation line foot}{bg=barcolor} 
 \setbeamercolor{normal text}{fg=black,bg=white} 
